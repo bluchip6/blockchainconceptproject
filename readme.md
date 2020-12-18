@@ -1,10 +1,10 @@
-## NCI Lab Project
+
 
 ### Setup Instructions
 
 To download this project:
 
-```$ git clone https://github.com/eoinco/nci```
+```$ git clone https://github.com/bluchip6/blockchainconceptproject```
 
 To install the dependencies (web3, express, etc):
 
@@ -20,7 +20,7 @@ To curl (see-url) your webserver and get it to interact with Ethereum:
 
 To curl a POST request to get it to execute a *transferFunds* call to your contract:
 
-```curl -XPOST http://localhost:8080/transfer -H 'content-type: application/json' -d '{"account_from": "0x9b14eeE99808BaB2a4C6492D37B4D771F75b7631","account_to": "0x9Ca57f358dC7871C471714Aaa828fFE38f60b194","amount": "1000000000000"}'```
+```curl -XPOST http://localhost:8080/transfer -H 'content-type: application/json' -d '{"account_from": "0x5Ec11AD6b8F0BBf5086E6eeA6295942A1F5d7119","account_to": "0x9Ca57f358dC7871C471714Aaa828fFE38f60b194","amount": "1000000000000"}'```
 
 
 
@@ -42,7 +42,7 @@ To see your running containers
 
 Finally, to run your docker container (validate it's running by seeing your running containers)
 
-```$docker run -p 49160:8080 --name nci -d eoinco/ncilab6```
+```$docker run -p 49160:8080 --name blockchainconceptproject  -d bluchip6/image1```
 
 
 
