@@ -25,4 +25,4 @@ CMD [ "node", "handlers.js" ]
 #to see running containers
 #docker ps 
 
-#docker run -p 49160:8080 --name nci -d eoinco/ncilab6
+#docker run -p 49160:8080 --name blockchainconceptproject  -d bluchip6/image1
